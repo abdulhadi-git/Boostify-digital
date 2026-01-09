@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body{
+
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -15,6 +17,7 @@ html, body{
   position: absolute;
   z-index: -5;
 }
+
 
 /* card-effects-online */
 .holographic-container {
@@ -70,9 +73,10 @@ html, body{
   position: relative;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #F78700 !important;
 }
+
 .nav-link::after {
   content: "";
   position: absolute;
@@ -114,7 +118,8 @@ html, body{
   background-color: rgba(0, 0, 0, 0.639);
   position: relative;
 }
-.hero-para{
+
+.hero-para {
   width: 75%;
 }
 
@@ -288,10 +293,11 @@ footer {
   text-decoration: underline !important;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
-.offcanvas{
+
+.offcanvas {
   background-color: #010115 !important;
 }
 
@@ -310,27 +316,33 @@ footer {
 
 }
 
-@media(max-width: 512px){
-  .hero-section p{
+@media(max-width: 512px) {
+  .hero-section p {
     width: 100%;
   }
-  .about-content{
+
+  .about-content {
     text-align: center;
     padding: 25px 0;
   }
-  .center{
+
+  .center {
     text-align: center;
   }
-  .splide__arrows{
+
+  .splide__arrows {
     display: none;
   }
-  .splide__track::after{
+
+  .splide__track::after {
     display: none;
   }
-  .hidden{
+
+  .hidden {
     display: block;
   }
-  .hero-para{
+
+  .hero-para {
     width: 90% !important;
   }
 }

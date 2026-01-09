@@ -17,4 +17,5 @@ $(document).ready(function () {
         $('.nav-link').removeClass('active');
         $(this).addClass('active');
     })
+
 })
